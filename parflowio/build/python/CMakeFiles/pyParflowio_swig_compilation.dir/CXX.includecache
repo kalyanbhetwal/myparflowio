@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/KALYANBHETWAL/parflowio/python/numpy.i
+stdio.h
+/home/KALYANBHETWAL/parflowio/python/stdio.h
+numpy/arrayobject.h
+-
+std_complex.i
+-
+
+/home/KALYANBHETWAL/parflowio/python/parflowio.i
+parflow/pfdata.hpp
+/home/KALYANBHETWAL/parflowio/python/parflow/pfdata.hpp
+std_string.i
+/home/KALYANBHETWAL/parflowio/python/std_string.i
+std_array.i
+/home/KALYANBHETWAL/parflowio/python/std_array.i
+numpy.i
+/home/KALYANBHETWAL/parflowio/python/numpy.i
+typemaps.i
+/home/KALYANBHETWAL/parflowio/python/typemaps.i
+std_vector.i
+/home/KALYANBHETWAL/parflowio/python/std_vector.i
+parflow/pfdata.hpp
+/home/KALYANBHETWAL/parflowio/python/parflow/pfdata.hpp
+cstdlib
+-
+cstring
+-
+Python.h
+/home/KALYANBHETWAL/parflowio/python/Python.h
+numpy/arrayobject.h
+/home/KALYANBHETWAL/parflowio/python/numpy/arrayobject.h
+

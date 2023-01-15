@@ -1,0 +1,3544 @@
+/usr/local/apps/cmake/bin/cmake -S/home/KALYANBHETWAL/parflowio -B/home/KALYANBHETWAL/parflowio/build --check-build-system CMakeFiles/Makefile.cmake 0
+make -f CMakeFiles/Makefile2 test
+make[1]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+/usr/local/apps/cmake/bin/cmake -S/home/KALYANBHETWAL/parflowio -B/home/KALYANBHETWAL/parflowio/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/apps/cmake/bin/cmake -E cmake_progress_start /home/KALYANBHETWAL/parflowio/build/CMakeFiles 9
+make -f CMakeFiles/Makefile2 tests/CMakeFiles/test.dir/all
+make[2]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+make -f src/CMakeFiles/parflowio.dir/build.make src/CMakeFiles/parflowio.dir/depend
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+cd /home/KALYANBHETWAL/parflowio/build && /usr/local/apps/cmake/bin/cmake -E cmake_depends "Unix Makefiles" /home/KALYANBHETWAL/parflowio /home/KALYANBHETWAL/parflowio/src /home/KALYANBHETWAL/parflowio/build /home/KALYANBHETWAL/parflowio/build/src /home/KALYANBHETWAL/parflowio/build/src/CMakeFiles/parflowio.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+make -f src/CMakeFiles/parflowio.dir/build.make src/CMakeFiles/parflowio.dir/build
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+make[3]: Nothing to be done for 'src/CMakeFiles/parflowio.dir/build'.
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+[ 22%] Built target parflowio
+make -f tests/lib/googletest/CMakeFiles/gtest.dir/build.make tests/lib/googletest/CMakeFiles/gtest.dir/depend
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+cd /home/KALYANBHETWAL/parflowio/build && /usr/local/apps/cmake/bin/cmake -E cmake_depends "Unix Makefiles" /home/KALYANBHETWAL/parflowio /home/KALYANBHETWAL/parflowio/tests/lib/googletest /home/KALYANBHETWAL/parflowio/build /home/KALYANBHETWAL/parflowio/build/tests/lib/googletest /home/KALYANBHETWAL/parflowio/build/tests/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+make -f tests/lib/googletest/CMakeFiles/gtest.dir/build.make tests/lib/googletest/CMakeFiles/gtest.dir/build
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+make[3]: Nothing to be done for 'tests/lib/googletest/CMakeFiles/gtest.dir/build'.
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+[ 44%] Built target gtest
+make -f tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make tests/lib/googletest/CMakeFiles/gtest_main.dir/depend
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+cd /home/KALYANBHETWAL/parflowio/build && /usr/local/apps/cmake/bin/cmake -E cmake_depends "Unix Makefiles" /home/KALYANBHETWAL/parflowio /home/KALYANBHETWAL/parflowio/tests/lib/googletest /home/KALYANBHETWAL/parflowio/build /home/KALYANBHETWAL/parflowio/build/tests/lib/googletest /home/KALYANBHETWAL/parflowio/build/tests/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+make -f tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make tests/lib/googletest/CMakeFiles/gtest_main.dir/build
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+make[3]: Nothing to be done for 'tests/lib/googletest/CMakeFiles/gtest_main.dir/build'.
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+[ 66%] Built target gtest_main
+make -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/depend
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+cd /home/KALYANBHETWAL/parflowio/build && /usr/local/apps/cmake/bin/cmake -E cmake_depends "Unix Makefiles" /home/KALYANBHETWAL/parflowio /home/KALYANBHETWAL/parflowio/tests /home/KALYANBHETWAL/parflowio/build /home/KALYANBHETWAL/parflowio/build/tests /home/KALYANBHETWAL/parflowio/build/tests/CMakeFiles/run_tests.dir/DependInfo.cmake --color=
+Scanning dependencies of target run_tests
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+make -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/build
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+[ 77%] Building CXX object tests/CMakeFiles/run_tests.dir/PFData_test.cpp.o
+cd /home/KALYANBHETWAL/parflowio/build/tests && /usr/bin/c++   -I/home/KALYANBHETWAL/parflowio/tests/parflowio -I/home/KALYANBHETWAL/parflowio/tests/PUBLIC -I/home/KALYANBHETWAL/parflowio/tests/../include -I/include -I/home/KALYANBHETWAL/parflowio/src/../include -isystem /home/KALYANBHETWAL/parflowio/tests/lib/googletest/include -isystem /home/KALYANBHETWAL/parflowio/tests/lib/googletest  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/run_tests.dir/PFData_test.cpp.o -c /home/KALYANBHETWAL/parflowio/tests/PFData_test.cpp
+[ 88%] Linking CXX executable run_tests
+cd /home/KALYANBHETWAL/parflowio/build/tests && /usr/local/apps/cmake/bin/cmake -E cmake_link_script CMakeFiles/run_tests.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/run_tests.dir/PFData_test.cpp.o ../src/CMakeFiles/parflowio.dir/pfdata.cpp.o ../src/CMakeFiles/parflowio.dir/pfutil.cpp.o  -o run_tests ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a -lpthread 
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+[ 88%] Built target run_tests
+make -f tests/CMakeFiles/test.dir/build.make tests/CMakeFiles/test.dir/depend
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+cd /home/KALYANBHETWAL/parflowio/build && /usr/local/apps/cmake/bin/cmake -E cmake_depends "Unix Makefiles" /home/KALYANBHETWAL/parflowio /home/KALYANBHETWAL/parflowio/tests /home/KALYANBHETWAL/parflowio/build /home/KALYANBHETWAL/parflowio/build/tests /home/KALYANBHETWAL/parflowio/build/tests/CMakeFiles/test.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+make -f tests/CMakeFiles/test.dir/build.make tests/CMakeFiles/test.dir/build
+make[3]: Entering directory '/home/KALYANBHETWAL/parflowio/build'
+[100%] make test
+cd /home/KALYANBHETWAL/parflowio && /home/KALYANBHETWAL/parflowio/build/tests/run_tests
+Running main() from /home/KALYANBHETWAL/parflowio/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 24 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 24 tests from PFData_test
+[ RUN      ] PFData_test.loadHeader
+[       OK ] PFData_test.loadHeader (0 ms)
+[ RUN      ] PFData_test.data1
+[       OK ] PFData_test.data1 (0 ms)
+[ RUN      ] PFData_test.openClose
+[       OK ] PFData_test.openClose (0 ms)
+[ RUN      ] PFData_test.data2
+[       OK ] PFData_test.data2 (0 ms)
+[ RUN      ] PFData_test.loadData
+[       OK ] PFData_test.loadData (1 ms)
+[ RUN      ] PFData_test.fileReadPoint1
+[       OK ] PFData_test.fileReadPoint1 (428 ms)
+[ RUN      ] PFData_test.helperFunctions
+[       OK ] PFData_test.helperFunctions (0 ms)
+[ RUN      ] PFData_test.loadPQR
+[       OK ] PFData_test.loadPQR (1 ms)
+[ RUN      ] PFData_test.compareFuncSame
+[       OK ] PFData_test.compareFuncSame (2 ms)
+[ RUN      ] PFData_test.unflattenIndex
+[       OK ] PFData_test.unflattenIndex (2 ms)
+[ RUN      ] PFData_test.unflattenGridIndex
+[       OK ] PFData_test.unflattenGridIndex (0 ms)
+[ RUN      ] PFData_test.loadDataAbs
+[       OK ] PFData_test.loadDataAbs (1 ms)
+[ RUN      ] PFData_test.loadClipTest1
+[       OK ] PFData_test.loadClipTest1 (1 ms)
+[ RUN      ] PFData_test.loadClipTest2
+/home/KALYANBHETWAL/parflowio/tests/PFData_test.cpp:453: Failure
+The difference between 95.173603867758615 and test(0, 1, 1) is 95.173603867758615, which exceeds 1E-12, where
+95.173603867758615 evaluates to 95.173603867758615,
+test(0, 1, 1) evaluates to 190.34720773551723, and
+1E-12 evaluates to 9.9999999999999998e-13.
+/home/KALYANBHETWAL/parflowio/tests/PFData_test.cpp:454: Failure
+The difference between 98.006254316614971 and test(0, 0, 0) is 98.006254316614971, which exceeds 1E-12, where
+98.006254316614971 evaluates to 98.006254316614971,
+test(0, 0, 0) evaluates to 196.01250863322994, and
+1E-12 evaluates to 9.9999999999999998e-13.
+[  FAILED  ] PFData_test.loadClipTest2 (1 ms)
+[ RUN      ] PFData_test.loadClipTest3
+/home/KALYANBHETWAL/parflowio/tests/PFData_test.cpp:497: Failure
+The difference between 95.173603867758615 and test(0, 38, 38) is 95.173603867758615, which exceeds 1E-12, where
+95.173603867758615 evaluates to 95.173603867758615,
+test(0, 38, 38) evaluates to 190.34720773551723, and
+1E-12 evaluates to 9.9999999999999998e-13.
+/home/KALYANBHETWAL/parflowio/tests/PFData_test.cpp:498: Failure
+The difference between 98.006254316614971 and test(0, 37, 37) is 98.006254316614971, which exceeds 1E-12, where
+98.006254316614971 evaluates to 98.006254316614971,
+test(0, 37, 37) evaluates to 196.01250863322994, and
+1E-12 evaluates to 9.9999999999999998e-13.
+[  FAILED  ] PFData_test.loadClipTest3 (2 ms)
+[ RUN      ] PFData_test.dist_press
+[       OK ] PFData_test.dist_press (6 ms)
+[ RUN      ] PFData_test.dist_lw_nldas
+[       OK ] PFData_test.dist_lw_nldas (6 ms)
+[ RUN      ] PFData_test.idxCalcs
+[       OK ] PFData_test.idxCalcs (0 ms)
+[ RUN      ] PFData_test.emptyFile
+[       OK ] PFData_test.emptyFile (1 ms)
+[ RUN      ] PFData_test.fileFromData
+[       OK ] PFData_test.fileFromData (4 ms)
+[ RUN      ] PFData_test.setData
+[       OK ] PFData_test.setData (1 ms)
+[ RUN      ] PFData_test.setIndexOrder
+[       OK ] PFData_test.setIndexOrder (1 ms)
+[ RUN      ] PFData_test.MultiplePFB
+[       OK ] PFData_test.MultiplePFB (1 ms)
+[ RUN      ] PFData_test.CalcAvg
+The mean is 49.0021
+------------------------------------
+The mean is 49.0062
+------------------------------------
+The mean is 48.9992
+------------------------------------
+The mean is 48.9343
+------------------------------------
+The mean is 48.9627
+------------------------------------
+The mean is 48.9841
+------------------------------------
+The mean is 48.9867
+------------------------------------
+The mean is 48.9878
+------------------------------------
+The mean is 48.947
+------------------------------------
+The mean is 49.0526
+------------------------------------
+The mean is 49.0261
+------------------------------------
+The mean is 48.9034
+------------------------------------
+The mean is 48.8839
+------------------------------------
+The mean is 48.9445
+------------------------------------
+The mean is 49.0915
+------------------------------------
+The mean is 48.946
+------------------------------------
+The mean is 48.9223
+------------------------------------
+The mean is 48.9721
+------------------------------------
+The mean is 48.9291
+------------------------------------
+The mean is 48.9501
+------------------------------------
+The mean is 48.9897
+------------------------------------
+The mean is 48.9573
+------------------------------------
+The mean is 47.9885
+------------------------------------
+The mean is 48.8886
+------------------------------------
+The mean is 49.0306
+------------------------------------
+The mean is 49.0419
+------------------------------------
+The mean is 48.968
+------------------------------------
+The mean is 49.0593
+------------------------------------
+The mean is 49.0873
+------------------------------------
+The mean is 48.9923
+------------------------------------
+The mean is 43.7862
+------------------------------------
+The mean is 44.3561
+------------------------------------
+The mean is 41.6604
+------------------------------------
+The mean is 35.8698
+------------------------------------
+The mean is 28.788
+------------------------------------
+The mean is 29.7355
+------------------------------------
+The mean is 36.8324
+------------------------------------
+The mean is 34.07
+------------------------------------
+The mean is 36.6426
+------------------------------------
+The mean is 44.9489
+------------------------------------
+The mean is 48.3668
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9943
+------------------------------------
+The mean is 48.9373
+------------------------------------
+The mean is 48.934
+------------------------------------
+The mean is 48.9383
+------------------------------------
+The mean is 48.9714
+------------------------------------
+The mean is 48.9326
+------------------------------------
+The mean is 48.9385
+------------------------------------
+The mean is 48.9232
+------------------------------------
+The mean is 49.0166
+------------------------------------
+The mean is 49.0218
+------------------------------------
+The mean is 48.9027
+------------------------------------
+The mean is 48.9635
+------------------------------------
+The mean is 49.0173
+------------------------------------
+The mean is 48.936
+------------------------------------
+The mean is 49.031
+------------------------------------
+The mean is 47.985
+------------------------------------
+The mean is 48.8802
+------------------------------------
+The mean is 48.8986
+------------------------------------
+The mean is 48.9054
+------------------------------------
+The mean is 48.9319
+------------------------------------
+The mean is 48.9469
+------------------------------------
+The mean is 47.6312
+------------------------------------
+The mean is 48.3095
+------------------------------------
+The mean is 49.0388
+------------------------------------
+The mean is 49.0231
+------------------------------------
+The mean is 47.8813
+------------------------------------
+The mean is 48.9716
+------------------------------------
+The mean is 49.0142
+------------------------------------
+The mean is 47.0834
+------------------------------------
+The mean is 49.0516
+------------------------------------
+The mean is 48.8461
+------------------------------------
+The mean is 48.6356
+------------------------------------
+The mean is 42.1179
+------------------------------------
+The mean is 34.5916
+------------------------------------
+The mean is 30.9094
+------------------------------------
+The mean is 28.8262
+------------------------------------
+The mean is 27.2245
+------------------------------------
+The mean is 27.414
+------------------------------------
+The mean is 30.7283
+------------------------------------
+The mean is 38.2268
+------------------------------------
+The mean is 46.2414
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.932
+------------------------------------
+The mean is 48.3193
+------------------------------------
+The mean is 47.4924
+------------------------------------
+The mean is 48.9472
+------------------------------------
+The mean is 49.0042
+------------------------------------
+The mean is 46.9586
+------------------------------------
+The mean is 47.003
+------------------------------------
+The mean is 49.069
+------------------------------------
+The mean is 49.0175
+------------------------------------
+The mean is 47.8762
+------------------------------------
+The mean is 48.9091
+------------------------------------
+The mean is 48.9525
+------------------------------------
+The mean is 48.5011
+------------------------------------
+The mean is 48.7782
+------------------------------------
+The mean is 49.0383
+------------------------------------
+The mean is 47.8337
+------------------------------------
+The mean is 48.9038
+------------------------------------
+The mean is 48.9314
+------------------------------------
+The mean is 48.9016
+------------------------------------
+The mean is 48.7225
+------------------------------------
+The mean is 48.9171
+------------------------------------
+The mean is 46.1634
+------------------------------------
+The mean is 48.7671
+------------------------------------
+The mean is 49.0464
+------------------------------------
+The mean is 48.9752
+------------------------------------
+The mean is 46.8759
+------------------------------------
+The mean is 49.0015
+------------------------------------
+The mean is 47.3224
+------------------------------------
+The mean is 46.7755
+------------------------------------
+The mean is 49.0897
+------------------------------------
+The mean is 49.0399
+------------------------------------
+The mean is 49.0069
+------------------------------------
+The mean is 42.0286
+------------------------------------
+The mean is 36.7901
+------------------------------------
+The mean is 35.3905
+------------------------------------
+The mean is 28.4266
+------------------------------------
+The mean is 21.6682
+------------------------------------
+The mean is 24.6296
+------------------------------------
+The mean is 26.9865
+------------------------------------
+The mean is 33.9664
+------------------------------------
+The mean is 47.8877
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9604
+------------------------------------
+The mean is 48.2536
+------------------------------------
+The mean is 47.1246
+------------------------------------
+The mean is 47.9599
+------------------------------------
+The mean is 48.9155
+------------------------------------
+The mean is 49.0389
+------------------------------------
+The mean is 49.0079
+------------------------------------
+The mean is 49.0214
+------------------------------------
+The mean is 48.9031
+------------------------------------
+The mean is 48.9046
+------------------------------------
+The mean is 48.9066
+------------------------------------
+The mean is 48.4043
+------------------------------------
+The mean is 44.0596
+------------------------------------
+The mean is 47.5265
+------------------------------------
+The mean is 49.0447
+------------------------------------
+The mean is 47.323
+------------------------------------
+The mean is 47.7156
+------------------------------------
+The mean is 48.9369
+------------------------------------
+The mean is 48.9728
+------------------------------------
+The mean is 48.4097
+------------------------------------
+The mean is 44.9394
+------------------------------------
+The mean is 44.5179
+------------------------------------
+The mean is 49.0199
+------------------------------------
+The mean is 49.0003
+------------------------------------
+The mean is 47.9907
+------------------------------------
+The mean is 47.4916
+------------------------------------
+The mean is 49.0174
+------------------------------------
+The mean is 47.822
+------------------------------------
+The mean is 48.11
+------------------------------------
+The mean is 48.9469
+------------------------------------
+The mean is 48.9426
+------------------------------------
+The mean is 49.0101
+------------------------------------
+The mean is 46.3418
+------------------------------------
+The mean is 44.4336
+------------------------------------
+The mean is 37.8725
+------------------------------------
+The mean is 28.3118
+------------------------------------
+The mean is 23.5741
+------------------------------------
+The mean is 26.1127
+------------------------------------
+The mean is 28.8017
+------------------------------------
+The mean is 35.2317
+------------------------------------
+The mean is 48.3531
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0277
+------------------------------------
+The mean is 48.9829
+------------------------------------
+The mean is 46.7447
+------------------------------------
+The mean is 46.7419
+------------------------------------
+The mean is 48.959
+------------------------------------
+The mean is 49.0116
+------------------------------------
+The mean is 48.9379
+------------------------------------
+The mean is 45.5892
+------------------------------------
+The mean is 48.959
+------------------------------------
+The mean is 49.0073
+------------------------------------
+The mean is 48.8933
+------------------------------------
+The mean is 47.5606
+------------------------------------
+The mean is 46.466
+------------------------------------
+The mean is 48.4434
+------------------------------------
+The mean is 48.9601
+------------------------------------
+The mean is 49.0078
+------------------------------------
+The mean is 49.0622
+------------------------------------
+The mean is 48.9639
+------------------------------------
+The mean is 48.8866
+------------------------------------
+The mean is 49.016
+------------------------------------
+The mean is 48.9297
+------------------------------------
+The mean is 43.269
+------------------------------------
+The mean is 44.6116
+------------------------------------
+The mean is 46.0658
+------------------------------------
+The mean is 46.965
+------------------------------------
+The mean is 48.0374
+------------------------------------
+The mean is 46.7689
+------------------------------------
+The mean is 44.5732
+------------------------------------
+The mean is 47.8848
+------------------------------------
+The mean is 49.0572
+------------------------------------
+The mean is 48.1333
+------------------------------------
+The mean is 47.4966
+------------------------------------
+The mean is 48.242
+------------------------------------
+The mean is 45.2948
+------------------------------------
+The mean is 36.2896
+------------------------------------
+The mean is 29.616
+------------------------------------
+The mean is 28.467
+------------------------------------
+The mean is 28.8648
+------------------------------------
+The mean is 31.5824
+------------------------------------
+The mean is 34.4772
+------------------------------------
+The mean is 44.8619
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0243
+------------------------------------
+The mean is 49.0004
+------------------------------------
+The mean is 47.2565
+------------------------------------
+The mean is 47.7594
+------------------------------------
+The mean is 49.0446
+------------------------------------
+The mean is 48.9906
+------------------------------------
+The mean is 48.9277
+------------------------------------
+The mean is 47.6506
+------------------------------------
+The mean is 48.9345
+------------------------------------
+The mean is 48.9771
+------------------------------------
+The mean is 48.9129
+------------------------------------
+The mean is 48.8846
+------------------------------------
+The mean is 49.0155
+------------------------------------
+The mean is 49.0124
+------------------------------------
+The mean is 48.9603
+------------------------------------
+The mean is 49.0201
+------------------------------------
+The mean is 49.0285
+------------------------------------
+The mean is 49.0264
+------------------------------------
+The mean is 49.0362
+------------------------------------
+The mean is 49.0329
+------------------------------------
+The mean is 46.2194
+------------------------------------
+The mean is 42.723
+------------------------------------
+The mean is 39.2728
+------------------------------------
+The mean is 38.2707
+------------------------------------
+The mean is 38.5861
+------------------------------------
+The mean is 41.9748
+------------------------------------
+The mean is 43.5933
+------------------------------------
+The mean is 45.0961
+------------------------------------
+The mean is 49.0261
+------------------------------------
+The mean is 49.0327
+------------------------------------
+The mean is 47.5619
+------------------------------------
+The mean is 44.364
+------------------------------------
+The mean is 43.9159
+------------------------------------
+The mean is 43.3555
+------------------------------------
+The mean is 41.1513
+------------------------------------
+The mean is 37.8513
+------------------------------------
+The mean is 37.4976
+------------------------------------
+The mean is 36.3741
+------------------------------------
+The mean is 37.6224
+------------------------------------
+The mean is 39.0509
+------------------------------------
+The mean is 41.2398
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0288
+------------------------------------
+The mean is 48.961
+------------------------------------
+The mean is 48.9684
+------------------------------------
+The mean is 49.0054
+------------------------------------
+The mean is 49.0314
+------------------------------------
+The mean is 48.9943
+------------------------------------
+The mean is 48.8996
+------------------------------------
+The mean is 48.4053
+------------------------------------
+The mean is 48.9246
+------------------------------------
+The mean is 48.9005
+------------------------------------
+The mean is 48.901
+------------------------------------
+The mean is 48.9334
+------------------------------------
+The mean is 49.0416
+------------------------------------
+The mean is 48.9504
+------------------------------------
+The mean is 48.9298
+------------------------------------
+The mean is 49.0016
+------------------------------------
+The mean is 48.5859
+------------------------------------
+The mean is 48.9667
+------------------------------------
+The mean is 49.0265
+------------------------------------
+The mean is 48.9882
+------------------------------------
+The mean is 49.0203
+------------------------------------
+The mean is 46.1115
+------------------------------------
+The mean is 34.8125
+------------------------------------
+The mean is 29.9441
+------------------------------------
+The mean is 29.0175
+------------------------------------
+The mean is 37.102
+------------------------------------
+The mean is 48.3371
+------------------------------------
+The mean is 48.9731
+------------------------------------
+The mean is 49.0178
+------------------------------------
+The mean is 49.0085
+------------------------------------
+The mean is 49.0072
+------------------------------------
+The mean is 42.4853
+------------------------------------
+The mean is 39.4674
+------------------------------------
+The mean is 42.8429
+------------------------------------
+The mean is 47.295
+------------------------------------
+The mean is 46.4025
+------------------------------------
+The mean is 45.5488
+------------------------------------
+The mean is 47.4589
+------------------------------------
+The mean is 46.5057
+------------------------------------
+The mean is 47.4082
+------------------------------------
+The mean is 47.7198
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0001
+------------------------------------
+The mean is 49.0036
+------------------------------------
+The mean is 48.994
+------------------------------------
+The mean is 48.9551
+------------------------------------
+The mean is 47.1065
+------------------------------------
+The mean is 49.0106
+------------------------------------
+The mean is 48.9629
+------------------------------------
+The mean is 47.4154
+------------------------------------
+The mean is 48.281
+------------------------------------
+The mean is 47.5496
+------------------------------------
+The mean is 48.9378
+------------------------------------
+The mean is 49.0576
+------------------------------------
+The mean is 49.0266
+------------------------------------
+The mean is 48.9195
+------------------------------------
+The mean is 48.9404
+------------------------------------
+The mean is 48.9986
+------------------------------------
+The mean is 48.6208
+------------------------------------
+The mean is 48.214
+------------------------------------
+The mean is 49.0143
+------------------------------------
+The mean is 49.055
+------------------------------------
+The mean is 49.0585
+------------------------------------
+The mean is 47.7822
+------------------------------------
+The mean is 37.9851
+------------------------------------
+The mean is 28.0887
+------------------------------------
+The mean is 28.9493
+------------------------------------
+The mean is 40.1034
+------------------------------------
+The mean is 49.0215
+------------------------------------
+The mean is 46.8436
+------------------------------------
+The mean is 43.352
+------------------------------------
+The mean is 44.0309
+------------------------------------
+The mean is 45.7628
+------------------------------------
+The mean is 41.9592
+------------------------------------
+The mean is 40.117
+------------------------------------
+The mean is 42.6
+------------------------------------
+The mean is 46.6997
+------------------------------------
+The mean is 48.2762
+------------------------------------
+The mean is 47.514
+------------------------------------
+The mean is 49.0897
+------------------------------------
+The mean is 49.0047
+------------------------------------
+The mean is 49.0129
+------------------------------------
+The mean is 49.0999
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0085
+------------------------------------
+The mean is 49.0066
+------------------------------------
+The mean is 48.9399
+------------------------------------
+The mean is 47.751
+------------------------------------
+The mean is 44.6581
+------------------------------------
+The mean is 48.967
+------------------------------------
+The mean is 49.0106
+------------------------------------
+The mean is 48.9181
+------------------------------------
+The mean is 47.5492
+------------------------------------
+The mean is 48.9102
+------------------------------------
+The mean is 49.0063
+------------------------------------
+The mean is 49.0054
+------------------------------------
+The mean is 49.0072
+------------------------------------
+The mean is 48.5813
+------------------------------------
+The mean is 48.942
+------------------------------------
+The mean is 49.066
+------------------------------------
+The mean is 49.0195
+------------------------------------
+The mean is 47.929
+------------------------------------
+The mean is 47.2928
+------------------------------------
+The mean is 49.0049
+------------------------------------
+The mean is 49.0093
+------------------------------------
+The mean is 49.0076
+------------------------------------
+The mean is 40.6433
+------------------------------------
+The mean is 29.7909
+------------------------------------
+The mean is 31.0369
+------------------------------------
+The mean is 41.6454
+------------------------------------
+The mean is 49.0154
+------------------------------------
+The mean is 45.0105
+------------------------------------
+The mean is 38.4869
+------------------------------------
+The mean is 38.8902
+------------------------------------
+The mean is 41.4409
+------------------------------------
+The mean is 41.5312
+------------------------------------
+The mean is 38.393
+------------------------------------
+The mean is 41.4726
+------------------------------------
+The mean is 47.0906
+------------------------------------
+The mean is 49.0508
+------------------------------------
+The mean is 49.0102
+------------------------------------
+The mean is 49.0182
+------------------------------------
+The mean is 49.0005
+------------------------------------
+The mean is 48.9781
+------------------------------------
+The mean is 49.0029
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.967
+------------------------------------
+The mean is 48.9507
+------------------------------------
+The mean is 48.9201
+------------------------------------
+The mean is 46.3958
+------------------------------------
+The mean is 44.7044
+------------------------------------
+The mean is 49.022
+------------------------------------
+The mean is 48.937
+------------------------------------
+The mean is 48.5437
+------------------------------------
+The mean is 48.9182
+------------------------------------
+The mean is 49.0087
+------------------------------------
+The mean is 48.9979
+------------------------------------
+The mean is 48.2278
+------------------------------------
+The mean is 48.9867
+------------------------------------
+The mean is 48.0278
+------------------------------------
+The mean is 48.2962
+------------------------------------
+The mean is 49.042
+------------------------------------
+The mean is 49.0364
+------------------------------------
+The mean is 49.0019
+------------------------------------
+The mean is 44.9686
+------------------------------------
+The mean is 42.0319
+------------------------------------
+The mean is 40.1511
+------------------------------------
+The mean is 40.7265
+------------------------------------
+The mean is 38.3867
+------------------------------------
+The mean is 32.8581
+------------------------------------
+The mean is 34.4258
+------------------------------------
+The mean is 40.4046
+------------------------------------
+The mean is 42.1148
+------------------------------------
+The mean is 43.969
+------------------------------------
+The mean is 40.2635
+------------------------------------
+The mean is 35.9732
+------------------------------------
+The mean is 35.9583
+------------------------------------
+The mean is 36.1484
+------------------------------------
+The mean is 39.006
+------------------------------------
+The mean is 44.279
+------------------------------------
+The mean is 48.022
+------------------------------------
+The mean is 49.0455
+------------------------------------
+The mean is 49.0044
+------------------------------------
+The mean is 49.0199
+------------------------------------
+The mean is 48.9783
+------------------------------------
+The mean is 48.9776
+------------------------------------
+The mean is 48.998
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.8944
+------------------------------------
+The mean is 48.9248
+------------------------------------
+The mean is 48.9246
+------------------------------------
+The mean is 48.9092
+------------------------------------
+The mean is 48.9129
+------------------------------------
+The mean is 49.0435
+------------------------------------
+The mean is 48.9765
+------------------------------------
+The mean is 48.6638
+------------------------------------
+The mean is 48.9308
+------------------------------------
+The mean is 48.9985
+------------------------------------
+The mean is 48.99
+------------------------------------
+The mean is 48.9584
+------------------------------------
+The mean is 49.0338
+------------------------------------
+The mean is 48.9627
+------------------------------------
+The mean is 48.9713
+------------------------------------
+The mean is 49.0144
+------------------------------------
+The mean is 48.9736
+------------------------------------
+The mean is 49.0441
+------------------------------------
+The mean is 46.3973
+------------------------------------
+The mean is 37.0017
+------------------------------------
+The mean is 33.8267
+------------------------------------
+The mean is 32.35
+------------------------------------
+The mean is 32.8989
+------------------------------------
+The mean is 31.5083
+------------------------------------
+The mean is 34.5807
+------------------------------------
+The mean is 37.9281
+------------------------------------
+The mean is 36.3121
+------------------------------------
+The mean is 38.127
+------------------------------------
+The mean is 35.7718
+------------------------------------
+The mean is 32.3277
+------------------------------------
+The mean is 30.7619
+------------------------------------
+The mean is 31.6775
+------------------------------------
+The mean is 37.389
+------------------------------------
+The mean is 45.2601
+------------------------------------
+The mean is 49.0106
+------------------------------------
+The mean is 48.0951
+------------------------------------
+The mean is 48.8111
+------------------------------------
+The mean is 48.8125
+------------------------------------
+The mean is 47.4248
+------------------------------------
+The mean is 47.0429
+------------------------------------
+The mean is 47.9782
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.0069
+------------------------------------
+The mean is 48.9937
+------------------------------------
+The mean is 48.9635
+------------------------------------
+The mean is 48.9059
+------------------------------------
+The mean is 48.9845
+------------------------------------
+The mean is 49.0401
+------------------------------------
+The mean is 49.009
+------------------------------------
+The mean is 48.083
+------------------------------------
+The mean is 48.5092
+------------------------------------
+The mean is 48.9747
+------------------------------------
+The mean is 48.9924
+------------------------------------
+The mean is 48.9406
+------------------------------------
+The mean is 49.0341
+------------------------------------
+The mean is 48.9713
+------------------------------------
+The mean is 49.0127
+------------------------------------
+The mean is 49.0114
+------------------------------------
+The mean is 46.3479
+------------------------------------
+The mean is 45.401
+------------------------------------
+The mean is 44.7616
+------------------------------------
+The mean is 38.6772
+------------------------------------
+The mean is 34.6566
+------------------------------------
+The mean is 33.0218
+------------------------------------
+The mean is 32.1796
+------------------------------------
+The mean is 32.316
+------------------------------------
+The mean is 33.9295
+------------------------------------
+The mean is 36.8523
+------------------------------------
+The mean is 37.2999
+------------------------------------
+The mean is 37.2806
+------------------------------------
+The mean is 34.8077
+------------------------------------
+The mean is 32.0763
+------------------------------------
+The mean is 29.1942
+------------------------------------
+The mean is 30.2481
+------------------------------------
+The mean is 38.7882
+------------------------------------
+The mean is 47.4242
+------------------------------------
+The mean is 47.8108
+------------------------------------
+The mean is 45.834
+------------------------------------
+The mean is 45.9668
+------------------------------------
+The mean is 43.4713
+------------------------------------
+The mean is 41.7253
+------------------------------------
+The mean is 42.9683
+------------------------------------
+The mean is 45.723
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9326
+------------------------------------
+The mean is 49.0111
+------------------------------------
+The mean is 48.9498
+------------------------------------
+The mean is 48.9274
+------------------------------------
+The mean is 48.9206
+------------------------------------
+The mean is 48.9469
+------------------------------------
+The mean is 49.0418
+------------------------------------
+The mean is 49.0301
+------------------------------------
+The mean is 45.6275
+------------------------------------
+The mean is 46.4651
+------------------------------------
+The mean is 49.0101
+------------------------------------
+The mean is 48.985
+------------------------------------
+The mean is 49.0394
+------------------------------------
+The mean is 48.9872
+------------------------------------
+The mean is 49.0096
+------------------------------------
+The mean is 48.0296
+------------------------------------
+The mean is 44.2882
+------------------------------------
+The mean is 40.7172
+------------------------------------
+The mean is 39.8208
+------------------------------------
+The mean is 35.6159
+------------------------------------
+The mean is 35.4645
+------------------------------------
+The mean is 38.4912
+------------------------------------
+The mean is 35.0099
+------------------------------------
+The mean is 35.0534
+------------------------------------
+The mean is 38.0558
+------------------------------------
+The mean is 39.9781
+------------------------------------
+The mean is 42.8919
+------------------------------------
+The mean is 41.2189
+------------------------------------
+The mean is 39.8169
+------------------------------------
+The mean is 37.3398
+------------------------------------
+The mean is 30.9092
+------------------------------------
+The mean is 31.3234
+------------------------------------
+The mean is 39.7688
+------------------------------------
+The mean is 45.5429
+------------------------------------
+The mean is 41.7674
+------------------------------------
+The mean is 40.7234
+------------------------------------
+The mean is 39.634
+------------------------------------
+The mean is 38.5503
+------------------------------------
+The mean is 36.3616
+------------------------------------
+The mean is 39.164
+------------------------------------
+The mean is 44.3118
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0274
+------------------------------------
+The mean is 49.0062
+------------------------------------
+The mean is 48.9601
+------------------------------------
+The mean is 48.8937
+------------------------------------
+The mean is 46.2503
+------------------------------------
+The mean is 48.9395
+------------------------------------
+The mean is 48.9205
+------------------------------------
+The mean is 48.9519
+------------------------------------
+The mean is 44.8692
+------------------------------------
+The mean is 44.8809
+------------------------------------
+The mean is 48.1842
+------------------------------------
+The mean is 49.0087
+------------------------------------
+The mean is 49.0076
+------------------------------------
+The mean is 48.2145
+------------------------------------
+The mean is 45.7844
+------------------------------------
+The mean is 43.7534
+------------------------------------
+The mean is 41.0095
+------------------------------------
+The mean is 35.3656
+------------------------------------
+The mean is 34.3323
+------------------------------------
+The mean is 35.5413
+------------------------------------
+The mean is 38.0005
+------------------------------------
+The mean is 39.0911
+------------------------------------
+The mean is 34.9862
+------------------------------------
+The mean is 35.7148
+------------------------------------
+The mean is 42.637
+------------------------------------
+The mean is 45.4214
+------------------------------------
+The mean is 47.2044
+------------------------------------
+The mean is 45.2866
+------------------------------------
+The mean is 44.1232
+------------------------------------
+The mean is 39.2016
+------------------------------------
+The mean is 31.1936
+------------------------------------
+The mean is 31.9884
+------------------------------------
+The mean is 37.1768
+------------------------------------
+The mean is 40.0751
+------------------------------------
+The mean is 35.6547
+------------------------------------
+The mean is 34.4103
+------------------------------------
+The mean is 32.724
+------------------------------------
+The mean is 36.3533
+------------------------------------
+The mean is 39.7637
+------------------------------------
+The mean is 42.6313
+------------------------------------
+The mean is 45.1793
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9886
+------------------------------------
+The mean is 49.0142
+------------------------------------
+The mean is 48.9209
+------------------------------------
+The mean is 48.5934
+------------------------------------
+The mean is 48.9035
+------------------------------------
+The mean is 48.9007
+------------------------------------
+The mean is 48.8871
+------------------------------------
+The mean is 48.8729
+------------------------------------
+The mean is 43.834
+------------------------------------
+The mean is 42.8074
+------------------------------------
+The mean is 45.7778
+------------------------------------
+The mean is 49.0145
+------------------------------------
+The mean is 44.0073
+------------------------------------
+The mean is 42.1374
+------------------------------------
+The mean is 39.8512
+------------------------------------
+The mean is 39.8738
+------------------------------------
+The mean is 39.661
+------------------------------------
+The mean is 37.4609
+------------------------------------
+The mean is 37.8382
+------------------------------------
+The mean is 39.5263
+------------------------------------
+The mean is 40.9328
+------------------------------------
+The mean is 42.1888
+------------------------------------
+The mean is 39.6621
+------------------------------------
+The mean is 37.1838
+------------------------------------
+The mean is 38.2034
+------------------------------------
+The mean is 44.7058
+------------------------------------
+The mean is 48.3676
+------------------------------------
+The mean is 47.7335
+------------------------------------
+The mean is 43.0546
+------------------------------------
+The mean is 36.7255
+------------------------------------
+The mean is 34.4478
+------------------------------------
+The mean is 31.8239
+------------------------------------
+The mean is 32.8253
+------------------------------------
+The mean is 33.3474
+------------------------------------
+The mean is 33.5264
+------------------------------------
+The mean is 32.6143
+------------------------------------
+The mean is 32.5454
+------------------------------------
+The mean is 35.6221
+------------------------------------
+The mean is 44.1818
+------------------------------------
+The mean is 49.0025
+------------------------------------
+The mean is 49.0475
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0461
+------------------------------------
+The mean is 48.9715
+------------------------------------
+The mean is 48.9038
+------------------------------------
+The mean is 48.8697
+------------------------------------
+The mean is 48.9623
+------------------------------------
+The mean is 47.9659
+------------------------------------
+The mean is 47.8594
+------------------------------------
+The mean is 48.0892
+------------------------------------
+The mean is 43.2864
+------------------------------------
+The mean is 41.1978
+------------------------------------
+The mean is 45.2044
+------------------------------------
+The mean is 44.9911
+------------------------------------
+The mean is 37.872
+------------------------------------
+The mean is 33.0171
+------------------------------------
+The mean is 35.8275
+------------------------------------
+The mean is 39.2761
+------------------------------------
+The mean is 39.4135
+------------------------------------
+The mean is 44.6553
+------------------------------------
+The mean is 45.761
+------------------------------------
+The mean is 44.3425
+------------------------------------
+The mean is 43.0192
+------------------------------------
+The mean is 46.0343
+------------------------------------
+The mean is 44.9146
+------------------------------------
+The mean is 41.1913
+------------------------------------
+The mean is 41.5362
+------------------------------------
+The mean is 45.9139
+------------------------------------
+The mean is 48.9945
+------------------------------------
+The mean is 44.7789
+------------------------------------
+The mean is 40.9902
+------------------------------------
+The mean is 40.1521
+------------------------------------
+The mean is 36.5376
+------------------------------------
+The mean is 31.0143
+------------------------------------
+The mean is 29.6044
+------------------------------------
+The mean is 28.2115
+------------------------------------
+The mean is 31.1916
+------------------------------------
+The mean is 35.0711
+------------------------------------
+The mean is 41.0821
+------------------------------------
+The mean is 40.1269
+------------------------------------
+The mean is 40.5964
+------------------------------------
+The mean is 46.2369
+------------------------------------
+The mean is 49.0859
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0542
+------------------------------------
+The mean is 48.9299
+------------------------------------
+The mean is 48.8975
+------------------------------------
+The mean is 48.9219
+------------------------------------
+The mean is 48.9588
+------------------------------------
+The mean is 48.9126
+------------------------------------
+The mean is 45.5367
+------------------------------------
+The mean is 42.6043
+------------------------------------
+The mean is 40.015
+------------------------------------
+The mean is 39.2449
+------------------------------------
+The mean is 40.5882
+------------------------------------
+The mean is 39.6154
+------------------------------------
+The mean is 38.3389
+------------------------------------
+The mean is 33.7615
+------------------------------------
+The mean is 35.9053
+------------------------------------
+The mean is 42.0647
+------------------------------------
+The mean is 40.303
+------------------------------------
+The mean is 42.2318
+------------------------------------
+The mean is 46.8181
+------------------------------------
+The mean is 48.9687
+------------------------------------
+The mean is 47.5632
+------------------------------------
+The mean is 48.5857
+------------------------------------
+The mean is 47.9222
+------------------------------------
+The mean is 46.8481
+------------------------------------
+The mean is 49.0127
+------------------------------------
+The mean is 49.0656
+------------------------------------
+The mean is 47.3412
+------------------------------------
+The mean is 38.2935
+------------------------------------
+The mean is 39.941
+------------------------------------
+The mean is 48.9949
+------------------------------------
+The mean is 40.8504
+------------------------------------
+The mean is 33.9243
+------------------------------------
+The mean is 32.3786
+------------------------------------
+The mean is 32.1992
+------------------------------------
+The mean is 30.4215
+------------------------------------
+The mean is 32.9829
+------------------------------------
+The mean is 44.0138
+------------------------------------
+The mean is 44.9754
+------------------------------------
+The mean is 42.0901
+------------------------------------
+The mean is 44.7693
+------------------------------------
+The mean is 49.1301
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0435
+------------------------------------
+The mean is 48.98
+------------------------------------
+The mean is 48.5423
+------------------------------------
+The mean is 48.9557
+------------------------------------
+The mean is 48.9705
+------------------------------------
+The mean is 48.948
+------------------------------------
+The mean is 48.5628
+------------------------------------
+The mean is 42.447
+------------------------------------
+The mean is 34.1535
+------------------------------------
+The mean is 34.2232
+------------------------------------
+The mean is 37.34
+------------------------------------
+The mean is 42.0564
+------------------------------------
+The mean is 45.0432
+------------------------------------
+The mean is 39.9573
+------------------------------------
+The mean is 35.9672
+------------------------------------
+The mean is 42.8883
+------------------------------------
+The mean is 48.6965
+------------------------------------
+The mean is 46.8775
+------------------------------------
+The mean is 46.8686
+------------------------------------
+The mean is 47.0707
+------------------------------------
+The mean is 49.0406
+------------------------------------
+The mean is 49.0228
+------------------------------------
+The mean is 49.015
+------------------------------------
+The mean is 49.0704
+------------------------------------
+The mean is 49.0678
+------------------------------------
+The mean is 49.0357
+------------------------------------
+The mean is 44.1055
+------------------------------------
+The mean is 38.636
+------------------------------------
+The mean is 43.1356
+------------------------------------
+The mean is 48.9922
+------------------------------------
+The mean is 42.6472
+------------------------------------
+The mean is 36.3771
+------------------------------------
+The mean is 36.1319
+------------------------------------
+The mean is 37.5422
+------------------------------------
+The mean is 34.498
+------------------------------------
+The mean is 34.9843
+------------------------------------
+The mean is 43.0856
+------------------------------------
+The mean is 49.0042
+------------------------------------
+The mean is 48.9545
+------------------------------------
+The mean is 47.0886
+------------------------------------
+The mean is 49.0266
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9427
+------------------------------------
+The mean is 49.0037
+------------------------------------
+The mean is 49.015
+------------------------------------
+The mean is 49.0383
+------------------------------------
+The mean is 49.0243
+------------------------------------
+The mean is 48.9156
+------------------------------------
+The mean is 48.8596
+------------------------------------
+The mean is 40.4887
+------------------------------------
+The mean is 33.5496
+------------------------------------
+The mean is 33.5635
+------------------------------------
+The mean is 37.636
+------------------------------------
+The mean is 41.6271
+------------------------------------
+The mean is 47.4711
+------------------------------------
+The mean is 47.3145
+------------------------------------
+The mean is 42.2413
+------------------------------------
+The mean is 44.4263
+------------------------------------
+The mean is 49.0688
+------------------------------------
+The mean is 49.0441
+------------------------------------
+The mean is 49.0629
+------------------------------------
+The mean is 49.0272
+------------------------------------
+The mean is 48.9943
+------------------------------------
+The mean is 46.3073
+------------------------------------
+The mean is 48.5716
+------------------------------------
+The mean is 49.0573
+------------------------------------
+The mean is 48.9181
+------------------------------------
+The mean is 49.0271
+------------------------------------
+The mean is 45.4111
+------------------------------------
+The mean is 44.9961
+------------------------------------
+The mean is 49.0822
+------------------------------------
+The mean is 47.0677
+------------------------------------
+The mean is 38.1782
+------------------------------------
+The mean is 37.646
+------------------------------------
+The mean is 39.394
+------------------------------------
+The mean is 39.3867
+------------------------------------
+The mean is 37.4133
+------------------------------------
+The mean is 37.7802
+------------------------------------
+The mean is 43.9864
+------------------------------------
+The mean is 49.0191
+------------------------------------
+The mean is 49.0587
+------------------------------------
+The mean is 49.0238
+------------------------------------
+The mean is 48.9412
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9591
+------------------------------------
+The mean is 48.1736
+------------------------------------
+The mean is 49.0225
+------------------------------------
+The mean is 48.9428
+------------------------------------
+The mean is 49.0021
+------------------------------------
+The mean is 49.0655
+------------------------------------
+The mean is 47.0871
+------------------------------------
+The mean is 40.2778
+------------------------------------
+The mean is 36.0814
+------------------------------------
+The mean is 36.0387
+------------------------------------
+The mean is 36.3104
+------------------------------------
+The mean is 38.2592
+------------------------------------
+The mean is 44.9022
+------------------------------------
+The mean is 49.0303
+------------------------------------
+The mean is 49.0259
+------------------------------------
+The mean is 49.0403
+------------------------------------
+The mean is 49.0462
+------------------------------------
+The mean is 48.12
+------------------------------------
+The mean is 46.5926
+------------------------------------
+The mean is 46.2818
+------------------------------------
+The mean is 42.5061
+------------------------------------
+The mean is 45.8063
+------------------------------------
+The mean is 49.0373
+------------------------------------
+The mean is 48.9556
+------------------------------------
+The mean is 47.4726
+------------------------------------
+The mean is 49.0603
+------------------------------------
+The mean is 49.0691
+------------------------------------
+The mean is 49.0187
+------------------------------------
+The mean is 49.0159
+------------------------------------
+The mean is 44.7206
+------------------------------------
+The mean is 38.1599
+------------------------------------
+The mean is 42.9379
+------------------------------------
+The mean is 44.1319
+------------------------------------
+The mean is 44.5676
+------------------------------------
+The mean is 41.3881
+------------------------------------
+The mean is 39.415
+------------------------------------
+The mean is 41.8553
+------------------------------------
+The mean is 48.3603
+------------------------------------
+The mean is 49.0732
+------------------------------------
+The mean is 49.0355
+------------------------------------
+The mean is 48.9611
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9534
+------------------------------------
+The mean is 48.9432
+------------------------------------
+The mean is 49.0509
+------------------------------------
+The mean is 48.6922
+------------------------------------
+The mean is 46.9966
+------------------------------------
+The mean is 48.9626
+------------------------------------
+The mean is 46.2108
+------------------------------------
+The mean is 41.6459
+------------------------------------
+The mean is 39.4401
+------------------------------------
+The mean is 40.284
+------------------------------------
+The mean is 38.738
+------------------------------------
+The mean is 37.9712
+------------------------------------
+The mean is 45.936
+------------------------------------
+The mean is 49.0878
+------------------------------------
+The mean is 48.9991
+------------------------------------
+The mean is 46.2919
+------------------------------------
+The mean is 43.076
+------------------------------------
+The mean is 42.7699
+------------------------------------
+The mean is 39.8084
+------------------------------------
+The mean is 40.2637
+------------------------------------
+The mean is 42.3945
+------------------------------------
+The mean is 48.0296
+------------------------------------
+The mean is 49.0158
+------------------------------------
+The mean is 44.5373
+------------------------------------
+The mean is 48.5029
+------------------------------------
+The mean is 49.0196
+------------------------------------
+The mean is 49.019
+------------------------------------
+The mean is 49.013
+------------------------------------
+The mean is 45.7801
+------------------------------------
+The mean is 44.7417
+------------------------------------
+The mean is 43.316
+------------------------------------
+The mean is 47.2478
+------------------------------------
+The mean is 49.0098
+------------------------------------
+The mean is 48.1868
+------------------------------------
+The mean is 46.9946
+------------------------------------
+The mean is 45.7374
+------------------------------------
+The mean is 38.9809
+------------------------------------
+The mean is 42.0782
+------------------------------------
+The mean is 49.0205
+------------------------------------
+The mean is 49.0427
+------------------------------------
+The mean is 49.0452
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9183
+------------------------------------
+The mean is 48.9804
+------------------------------------
+The mean is 48.9902
+------------------------------------
+The mean is 49.0244
+------------------------------------
+The mean is 46.5205
+------------------------------------
+The mean is 43.7323
+------------------------------------
+The mean is 42.9693
+------------------------------------
+The mean is 40.2516
+------------------------------------
+The mean is 41.9199
+------------------------------------
+The mean is 45.2503
+------------------------------------
+The mean is 46.5555
+------------------------------------
+The mean is 43.4193
+------------------------------------
+The mean is 46.9996
+------------------------------------
+The mean is 49.0088
+------------------------------------
+The mean is 43.7608
+------------------------------------
+The mean is 39.9735
+------------------------------------
+The mean is 38.7143
+------------------------------------
+The mean is 40.1825
+------------------------------------
+The mean is 38.0202
+------------------------------------
+The mean is 36.4287
+------------------------------------
+The mean is 42.4666
+------------------------------------
+The mean is 48.9983
+------------------------------------
+The mean is 48.9474
+------------------------------------
+The mean is 44.3153
+------------------------------------
+The mean is 44.2908
+------------------------------------
+The mean is 41.1888
+------------------------------------
+The mean is 42.8055
+------------------------------------
+The mean is 49.072
+------------------------------------
+The mean is 49.0467
+------------------------------------
+The mean is 46.8789
+------------------------------------
+The mean is 47.6513
+------------------------------------
+The mean is 46.9979
+------------------------------------
+The mean is 49.0522
+------------------------------------
+The mean is 49.034
+------------------------------------
+The mean is 49.0457
+------------------------------------
+The mean is 43.7736
+------------------------------------
+The mean is 35.4011
+------------------------------------
+The mean is 38.7806
+------------------------------------
+The mean is 45.1967
+------------------------------------
+The mean is 48.6428
+------------------------------------
+The mean is 49.0581
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.936
+------------------------------------
+The mean is 46.5204
+------------------------------------
+The mean is 46.3049
+------------------------------------
+The mean is 49.0587
+------------------------------------
+The mean is 46.9182
+------------------------------------
+The mean is 39.4077
+------------------------------------
+The mean is 39.8511
+------------------------------------
+The mean is 39.778
+------------------------------------
+The mean is 44.578
+------------------------------------
+The mean is 47.2309
+------------------------------------
+The mean is 48.3367
+------------------------------------
+The mean is 49.032
+------------------------------------
+The mean is 49.0097
+------------------------------------
+The mean is 48.9783
+------------------------------------
+The mean is 42.5261
+------------------------------------
+The mean is 38.7235
+------------------------------------
+The mean is 39.8434
+------------------------------------
+The mean is 41.4622
+------------------------------------
+The mean is 37.3732
+------------------------------------
+The mean is 36.4142
+------------------------------------
+The mean is 44.148
+------------------------------------
+The mean is 49.0026
+------------------------------------
+The mean is 45.7954
+------------------------------------
+The mean is 41.9985
+------------------------------------
+The mean is 36.8031
+------------------------------------
+The mean is 36.2729
+------------------------------------
+The mean is 40.5355
+------------------------------------
+The mean is 46.1373
+------------------------------------
+The mean is 49.0538
+------------------------------------
+The mean is 49.0078
+------------------------------------
+The mean is 48.3192
+------------------------------------
+The mean is 47.8664
+------------------------------------
+The mean is 49.0131
+------------------------------------
+The mean is 49.0692
+------------------------------------
+The mean is 48.9692
+------------------------------------
+The mean is 42.8305
+------------------------------------
+The mean is 39.8176
+------------------------------------
+The mean is 41.5177
+------------------------------------
+The mean is 44.8536
+------------------------------------
+The mean is 47.0146
+------------------------------------
+The mean is 49.0339
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9803
+------------------------------------
+The mean is 43.137
+------------------------------------
+The mean is 43.871
+------------------------------------
+The mean is 47.4587
+------------------------------------
+The mean is 48.2743
+------------------------------------
+The mean is 43.4682
+------------------------------------
+The mean is 41.6833
+------------------------------------
+The mean is 41.9854
+------------------------------------
+The mean is 45.853
+------------------------------------
+The mean is 49.0463
+------------------------------------
+The mean is 49.028
+------------------------------------
+The mean is 49.0175
+------------------------------------
+The mean is 48.929
+------------------------------------
+The mean is 49.0209
+------------------------------------
+The mean is 44.5667
+------------------------------------
+The mean is 39.4784
+------------------------------------
+The mean is 40.8746
+------------------------------------
+The mean is 42.4147
+------------------------------------
+The mean is 37.7879
+------------------------------------
+The mean is 34.8512
+------------------------------------
+The mean is 42.9532
+------------------------------------
+The mean is 49.0786
+------------------------------------
+The mean is 45.6159
+------------------------------------
+The mean is 40.0806
+------------------------------------
+The mean is 40.0176
+------------------------------------
+The mean is 41.0569
+------------------------------------
+The mean is 44.0143
+------------------------------------
+The mean is 48.3064
+------------------------------------
+The mean is 48.9315
+------------------------------------
+The mean is 49.0757
+------------------------------------
+The mean is 46.5191
+------------------------------------
+The mean is 49.0206
+------------------------------------
+The mean is 49.0083
+------------------------------------
+The mean is 49.0281
+------------------------------------
+The mean is 47.0726
+------------------------------------
+The mean is 42.9602
+------------------------------------
+The mean is 47.7394
+------------------------------------
+The mean is 48.9811
+------------------------------------
+The mean is 47.9595
+------------------------------------
+The mean is 46.8829
+------------------------------------
+The mean is 48.9804
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9884
+------------------------------------
+The mean is 44.1286
+------------------------------------
+The mean is 43.1982
+------------------------------------
+The mean is 44.1837
+------------------------------------
+The mean is 45.1468
+------------------------------------
+The mean is 43.608
+------------------------------------
+The mean is 44.5684
+------------------------------------
+The mean is 46.588
+------------------------------------
+The mean is 49.0079
+------------------------------------
+The mean is 49.0513
+------------------------------------
+The mean is 48.3724
+------------------------------------
+The mean is 47.9253
+------------------------------------
+The mean is 48.4185
+------------------------------------
+The mean is 48.839
+------------------------------------
+The mean is 45.9392
+------------------------------------
+The mean is 40.8698
+------------------------------------
+The mean is 41.1627
+------------------------------------
+The mean is 39.5874
+------------------------------------
+The mean is 35.5727
+------------------------------------
+The mean is 34.6575
+------------------------------------
+The mean is 44.0389
+------------------------------------
+The mean is 49.0303
+------------------------------------
+The mean is 41.6336
+------------------------------------
+The mean is 41.1651
+------------------------------------
+The mean is 48.4956
+------------------------------------
+The mean is 49.0207
+------------------------------------
+The mean is 48.968
+------------------------------------
+The mean is 44.6917
+------------------------------------
+The mean is 45.0303
+------------------------------------
+The mean is 49.0388
+------------------------------------
+The mean is 48.9977
+------------------------------------
+The mean is 48.9957
+------------------------------------
+The mean is 42.577
+------------------------------------
+The mean is 41.2135
+------------------------------------
+The mean is 43.7012
+------------------------------------
+The mean is 47.0435
+------------------------------------
+The mean is 49.0415
+------------------------------------
+The mean is 49.0601
+------------------------------------
+The mean is 47.5454
+------------------------------------
+The mean is 48.1796
+------------------------------------
+The mean is 48.9552
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 48.9781
+------------------------------------
+The mean is 45.0112
+------------------------------------
+The mean is 41.0095
+------------------------------------
+The mean is 38.5605
+------------------------------------
+The mean is 37.0312
+------------------------------------
+The mean is 42.6275
+------------------------------------
+The mean is 47.7765
+------------------------------------
+The mean is 49.0148
+------------------------------------
+The mean is 48.9639
+------------------------------------
+The mean is 47.2093
+------------------------------------
+The mean is 46.5347
+------------------------------------
+The mean is 45.9448
+------------------------------------
+The mean is 46.3474
+------------------------------------
+The mean is 45.1245
+------------------------------------
+The mean is 43.7832
+------------------------------------
+The mean is 39.9158
+------------------------------------
+The mean is 37.5322
+------------------------------------
+The mean is 34.04
+------------------------------------
+The mean is 33.4166
+------------------------------------
+The mean is 35.8049
+------------------------------------
+The mean is 43.8937
+------------------------------------
+The mean is 46.652
+------------------------------------
+The mean is 42.1389
+------------------------------------
+The mean is 42.3785
+------------------------------------
+The mean is 46.5048
+------------------------------------
+The mean is 45.2751
+------------------------------------
+The mean is 43.9249
+------------------------------------
+The mean is 41.2459
+------------------------------------
+The mean is 39.5109
+------------------------------------
+The mean is 47.0757
+------------------------------------
+The mean is 49.1075
+------------------------------------
+The mean is 47.7326
+------------------------------------
+The mean is 44.8479
+------------------------------------
+The mean is 44.6846
+------------------------------------
+The mean is 45.2486
+------------------------------------
+The mean is 48.9843
+------------------------------------
+The mean is 49.0572
+------------------------------------
+The mean is 48.9605
+------------------------------------
+The mean is 43.4355
+------------------------------------
+The mean is 46.7787
+------------------------------------
+The mean is 49.0468
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 45.2094
+------------------------------------
+The mean is 45.04
+------------------------------------
+The mean is 40.3323
+------------------------------------
+The mean is 34.748
+------------------------------------
+The mean is 37.3528
+------------------------------------
+The mean is 44.6976
+------------------------------------
+The mean is 48.8273
+------------------------------------
+The mean is 48.8259
+------------------------------------
+The mean is 46.9817
+------------------------------------
+The mean is 44.6341
+------------------------------------
+The mean is 45.4934
+------------------------------------
+The mean is 42.6655
+------------------------------------
+The mean is 41.8544
+------------------------------------
+The mean is 40.4826
+------------------------------------
+The mean is 40.1152
+------------------------------------
+The mean is 36.4721
+------------------------------------
+The mean is 30.5791
+------------------------------------
+The mean is 28.1698
+------------------------------------
+The mean is 31.3501
+------------------------------------
+The mean is 38.079
+------------------------------------
+The mean is 44.4466
+------------------------------------
+The mean is 41.9613
+------------------------------------
+The mean is 44.2518
+------------------------------------
+The mean is 46.0382
+------------------------------------
+The mean is 48.6875
+------------------------------------
+The mean is 48.1277
+------------------------------------
+The mean is 46.7692
+------------------------------------
+The mean is 47.8616
+------------------------------------
+The mean is 44.0162
+------------------------------------
+The mean is 47.6047
+------------------------------------
+The mean is 49.116
+------------------------------------
+The mean is 48.905
+------------------------------------
+The mean is 48.9469
+------------------------------------
+The mean is 48.9608
+------------------------------------
+The mean is 42.8141
+------------------------------------
+The mean is 46.3599
+------------------------------------
+The mean is 49.0465
+------------------------------------
+The mean is 48.9266
+------------------------------------
+The mean is 46.7189
+------------------------------------
+The mean is 46.8619
+------------------------------------
+The mean is 48.9934
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 46.3771
+------------------------------------
+The mean is 45.6716
+------------------------------------
+The mean is 41.6944
+------------------------------------
+The mean is 36.8333
+------------------------------------
+The mean is 37.9261
+------------------------------------
+The mean is 45.4098
+------------------------------------
+The mean is 48.1196
+------------------------------------
+The mean is 46.6531
+------------------------------------
+The mean is 44.9703
+------------------------------------
+The mean is 43.982
+------------------------------------
+The mean is 42.9438
+------------------------------------
+The mean is 40.5585
+------------------------------------
+The mean is 36.4735
+------------------------------------
+The mean is 35.668
+------------------------------------
+The mean is 37.2207
+------------------------------------
+The mean is 34.5032
+------------------------------------
+The mean is 26.4146
+------------------------------------
+The mean is 25.7566
+------------------------------------
+The mean is 30.4874
+------------------------------------
+The mean is 35.5447
+------------------------------------
+The mean is 38.324
+------------------------------------
+The mean is 40.7196
+------------------------------------
+The mean is 45.9174
+------------------------------------
+The mean is 49.0229
+------------------------------------
+The mean is 49.0463
+------------------------------------
+The mean is 49.124
+------------------------------------
+The mean is 49.0632
+------------------------------------
+The mean is 49.0155
+------------------------------------
+The mean is 49.029
+------------------------------------
+The mean is 49.0074
+------------------------------------
+The mean is 49.0533
+------------------------------------
+The mean is 49.0711
+------------------------------------
+The mean is 49.0297
+------------------------------------
+The mean is 48.4932
+------------------------------------
+The mean is 43.737
+------------------------------------
+The mean is 45.5671
+------------------------------------
+The mean is 49.0629
+------------------------------------
+The mean is 49.0435
+------------------------------------
+The mean is 48.9215
+------------------------------------
+The mean is 46.2306
+------------------------------------
+The mean is 46.6727
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0291
+------------------------------------
+The mean is 49.0383
+------------------------------------
+The mean is 42.9355
+------------------------------------
+The mean is 36.62
+------------------------------------
+The mean is 37.2627
+------------------------------------
+The mean is 44.4315
+------------------------------------
+The mean is 47.7799
+------------------------------------
+The mean is 43.6058
+------------------------------------
+The mean is 43.3424
+------------------------------------
+The mean is 40.1949
+------------------------------------
+The mean is 37.5906
+------------------------------------
+The mean is 37.516
+------------------------------------
+The mean is 33.2313
+------------------------------------
+The mean is 30.526
+------------------------------------
+The mean is 30.4132
+------------------------------------
+The mean is 31.6093
+------------------------------------
+The mean is 26.0211
+------------------------------------
+The mean is 23.6786
+------------------------------------
+The mean is 26.9429
+------------------------------------
+The mean is 28.1912
+------------------------------------
+The mean is 32.6143
+------------------------------------
+The mean is 42.961
+------------------------------------
+The mean is 47.1712
+------------------------------------
+The mean is 49.0318
+------------------------------------
+The mean is 49.0316
+------------------------------------
+The mean is 49.0034
+------------------------------------
+The mean is 47.1358
+------------------------------------
+The mean is 48.9283
+------------------------------------
+The mean is 49.033
+------------------------------------
+The mean is 45.6063
+------------------------------------
+The mean is 48.9482
+------------------------------------
+The mean is 49.1108
+------------------------------------
+The mean is 49.0808
+------------------------------------
+The mean is 49.0434
+------------------------------------
+The mean is 48.9857
+------------------------------------
+The mean is 48.9535
+------------------------------------
+The mean is 49.0145
+------------------------------------
+The mean is 48.9606
+------------------------------------
+The mean is 47.1017
+------------------------------------
+The mean is 45.6162
+------------------------------------
+The mean is 45.0504
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0275
+------------------------------------
+The mean is 48.978
+------------------------------------
+The mean is 45.0273
+------------------------------------
+The mean is 39.1784
+------------------------------------
+The mean is 35.7865
+------------------------------------
+The mean is 40.1239
+------------------------------------
+The mean is 45.9031
+------------------------------------
+The mean is 43.8639
+------------------------------------
+The mean is 41.8565
+------------------------------------
+The mean is 37.6156
+------------------------------------
+The mean is 31.7841
+------------------------------------
+The mean is 30.3283
+------------------------------------
+The mean is 28.1185
+------------------------------------
+The mean is 27.1199
+------------------------------------
+The mean is 28.7028
+------------------------------------
+The mean is 28.2922
+------------------------------------
+The mean is 28.3371
+------------------------------------
+The mean is 29.0535
+------------------------------------
+The mean is 28.56
+------------------------------------
+The mean is 28.4526
+------------------------------------
+The mean is 35.2881
+------------------------------------
+The mean is 43.0416
+------------------------------------
+The mean is 44.219
+------------------------------------
+The mean is 46.7669
+------------------------------------
+The mean is 47.7831
+------------------------------------
+The mean is 42.9808
+------------------------------------
+The mean is 43.8399
+------------------------------------
+The mean is 49.0452
+------------------------------------
+The mean is 49.0727
+------------------------------------
+The mean is 42.4209
+------------------------------------
+The mean is 46.9849
+------------------------------------
+The mean is 49.1036
+------------------------------------
+The mean is 49.0529
+------------------------------------
+The mean is 49.0608
+------------------------------------
+The mean is 49.0568
+------------------------------------
+The mean is 49.0416
+------------------------------------
+The mean is 49.0038
+------------------------------------
+The mean is 48.2804
+------------------------------------
+The mean is 46.4066
+------------------------------------
+The mean is 44.3468
+------------------------------------
+The mean is 45.0701
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 49.0243
+------------------------------------
+The mean is 49.0196
+------------------------------------
+The mean is 47.7806
+------------------------------------
+The mean is 40.29
+------------------------------------
+The mean is 33.6997
+------------------------------------
+The mean is 33.2763
+------------------------------------
+The mean is 37.3045
+------------------------------------
+The mean is 38.4331
+------------------------------------
+The mean is 35.9235
+------------------------------------
+The mean is 35.3707
+------------------------------------
+The mean is 33.9094
+------------------------------------
+The mean is 36.0808
+------------------------------------
+The mean is 35.9198
+------------------------------------
+The mean is 36.8582
+------------------------------------
+The mean is 37.4437
+------------------------------------
+The mean is 33.4549
+------------------------------------
+The mean is 36.1526
+------------------------------------
+The mean is 38.5908
+------------------------------------
+The mean is 35.0147
+------------------------------------
+The mean is 31.047
+------------------------------------
+The mean is 34.1016
+------------------------------------
+The mean is 39.8585
+------------------------------------
+The mean is 41.3014
+------------------------------------
+The mean is 42.8067
+------------------------------------
+The mean is 41.5781
+------------------------------------
+The mean is 44.7809
+------------------------------------
+The mean is 49.0282
+------------------------------------
+The mean is 49.052
+------------------------------------
+The mean is 48.8952
+------------------------------------
+The mean is 45.8635
+------------------------------------
+The mean is 49.0839
+------------------------------------
+The mean is 49.0141
+------------------------------------
+The mean is 49.0191
+------------------------------------
+The mean is 48.9912
+------------------------------------
+The mean is 49.0251
+------------------------------------
+The mean is 49.0482
+------------------------------------
+The mean is 49.0489
+------------------------------------
+The mean is 48.9596
+------------------------------------
+The mean is 48.967
+------------------------------------
+The mean is 48.946
+------------------------------------
+The mean is 48.9863
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 46.9804
+------------------------------------
+The mean is 46.7528
+------------------------------------
+The mean is 47.3558
+------------------------------------
+The mean is 40.7106
+------------------------------------
+The mean is 32.3115
+------------------------------------
+The mean is 31.9337
+------------------------------------
+The mean is 33.4585
+------------------------------------
+The mean is 30.9173
+------------------------------------
+The mean is 30.0502
+------------------------------------
+The mean is 32.1266
+------------------------------------
+The mean is 41.7121
+------------------------------------
+The mean is 48.6512
+------------------------------------
+The mean is 49.0077
+------------------------------------
+The mean is 48.5653
+------------------------------------
+The mean is 45.2176
+------------------------------------
+The mean is 40.9587
+------------------------------------
+The mean is 42.5297
+------------------------------------
+The mean is 41.6097
+------------------------------------
+The mean is 35.9715
+------------------------------------
+The mean is 34.0722
+------------------------------------
+The mean is 36.4486
+------------------------------------
+The mean is 41.0848
+------------------------------------
+The mean is 44.5954
+------------------------------------
+The mean is 41.5186
+------------------------------------
+The mean is 44.6988
+------------------------------------
+The mean is 49.0429
+------------------------------------
+The mean is 49.0107
+------------------------------------
+The mean is 47.8494
+------------------------------------
+The mean is 45.8521
+------------------------------------
+The mean is 48.9878
+------------------------------------
+The mean is 48.9874
+------------------------------------
+The mean is 46.1551
+------------------------------------
+The mean is 49.0049
+------------------------------------
+The mean is 48.9476
+------------------------------------
+The mean is 48.4735
+------------------------------------
+The mean is 48.9625
+------------------------------------
+The mean is 49.0702
+------------------------------------
+The mean is 49.0391
+------------------------------------
+The mean is 49.0333
+------------------------------------
+The mean is 49.0931
+------------------------------------
+The mean is 49.1229
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 38.4121
+------------------------------------
+The mean is 37.267
+------------------------------------
+The mean is 38.2387
+------------------------------------
+The mean is 39.6826
+------------------------------------
+The mean is 39.6722
+------------------------------------
+The mean is 40.0756
+------------------------------------
+The mean is 36.1325
+------------------------------------
+The mean is 29.7955
+------------------------------------
+The mean is 29.2646
+------------------------------------
+The mean is 32.1372
+------------------------------------
+The mean is 39.3426
+------------------------------------
+The mean is 47.494
+------------------------------------
+The mean is 49.0163
+------------------------------------
+The mean is 49.0494
+------------------------------------
+The mean is 46.6293
+------------------------------------
+The mean is 43.7541
+------------------------------------
+The mean is 46.7309
+------------------------------------
+The mean is 40.9314
+------------------------------------
+The mean is 32.3093
+------------------------------------
+The mean is 34.757
+------------------------------------
+The mean is 40.0883
+------------------------------------
+The mean is 43.5696
+------------------------------------
+The mean is 49.044
+------------------------------------
+The mean is 49.0037
+------------------------------------
+The mean is 49.0082
+------------------------------------
+The mean is 49.0053
+------------------------------------
+The mean is 43.7006
+------------------------------------
+The mean is 39.758
+------------------------------------
+The mean is 46.6288
+------------------------------------
+The mean is 48.998
+------------------------------------
+The mean is 44.3943
+------------------------------------
+The mean is 47.5626
+------------------------------------
+The mean is 49.0254
+------------------------------------
+The mean is 48.0858
+------------------------------------
+The mean is 46.1845
+------------------------------------
+The mean is 48.8401
+------------------------------------
+The mean is 49.0433
+------------------------------------
+The mean is 48.8763
+------------------------------------
+The mean is 48.9928
+------------------------------------
+The mean is 48.8549
+------------------------------------
+The mean is 48.9209
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 29.2904
+------------------------------------
+The mean is 29.001
+------------------------------------
+The mean is 30.45
+------------------------------------
+The mean is 39.1858
+------------------------------------
+The mean is 48.3469
+------------------------------------
+The mean is 44.1501
+------------------------------------
+The mean is 37.992
+------------------------------------
+The mean is 36.3754
+------------------------------------
+The mean is 34.0129
+------------------------------------
+The mean is 32.8768
+------------------------------------
+The mean is 37.9304
+------------------------------------
+The mean is 46.9204
+------------------------------------
+The mean is 49.0107
+------------------------------------
+The mean is 49.0099
+------------------------------------
+The mean is 47.7119
+------------------------------------
+The mean is 45.7328
+------------------------------------
+The mean is 47.3232
+------------------------------------
+The mean is 43.0661
+------------------------------------
+The mean is 37.8986
+------------------------------------
+The mean is 36.6247
+------------------------------------
+The mean is 39.8035
+------------------------------------
+The mean is 44.3478
+------------------------------------
+The mean is 44.3825
+------------------------------------
+The mean is 41.9391
+------------------------------------
+The mean is 43.7022
+------------------------------------
+The mean is 41.7795
+------------------------------------
+The mean is 35.8481
+------------------------------------
+The mean is 36.7544
+------------------------------------
+The mean is 44.8155
+------------------------------------
+The mean is 41.8619
+------------------------------------
+The mean is 43.0737
+------------------------------------
+The mean is 48.9792
+------------------------------------
+The mean is 45.5585
+------------------------------------
+The mean is 47.0692
+------------------------------------
+The mean is 48.2218
+------------------------------------
+The mean is 49.0095
+------------------------------------
+The mean is 48.9884
+------------------------------------
+The mean is 47.1122
+------------------------------------
+The mean is 45.3937
+------------------------------------
+The mean is 44.8108
+------------------------------------
+The mean is 45.587
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 27.6969
+------------------------------------
+The mean is 28.2736
+------------------------------------
+The mean is 28.8807
+------------------------------------
+The mean is 38.9703
+------------------------------------
+The mean is 48.3975
+------------------------------------
+The mean is 46.4362
+------------------------------------
+The mean is 41.4641
+------------------------------------
+The mean is 40.5522
+------------------------------------
+The mean is 39.1119
+------------------------------------
+The mean is 32.9927
+------------------------------------
+The mean is 35.8694
+------------------------------------
+The mean is 45.7381
+------------------------------------
+The mean is 49.0276
+------------------------------------
+The mean is 48.9745
+------------------------------------
+The mean is 48.5938
+------------------------------------
+The mean is 49.0476
+------------------------------------
+The mean is 49.0111
+------------------------------------
+The mean is 45.3847
+------------------------------------
+The mean is 41.0415
+------------------------------------
+The mean is 38.592
+------------------------------------
+The mean is 40.1734
+------------------------------------
+The mean is 39.5438
+------------------------------------
+The mean is 37.3662
+------------------------------------
+The mean is 37.9999
+------------------------------------
+The mean is 35.5184
+------------------------------------
+The mean is 34.3543
+------------------------------------
+The mean is 36.7922
+------------------------------------
+The mean is 37.4531
+------------------------------------
+The mean is 42.7176
+------------------------------------
+The mean is 44.7596
+------------------------------------
+The mean is 45.7167
+------------------------------------
+The mean is 45.6417
+------------------------------------
+The mean is 44.5808
+------------------------------------
+The mean is 45.8986
+------------------------------------
+The mean is 48.9966
+------------------------------------
+The mean is 49.0075
+------------------------------------
+The mean is 48.3896
+------------------------------------
+The mean is 46.4625
+------------------------------------
+The mean is 44.4868
+------------------------------------
+The mean is 43.4267
+------------------------------------
+The mean is 42.4683
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 33.5572
+------------------------------------
+The mean is 34.5241
+------------------------------------
+The mean is 31.6857
+------------------------------------
+The mean is 36.7314
+------------------------------------
+The mean is 46.2319
+------------------------------------
+The mean is 49.0094
+------------------------------------
+The mean is 47.498
+------------------------------------
+The mean is 45.889
+------------------------------------
+The mean is 43.0115
+------------------------------------
+The mean is 33.7931
+------------------------------------
+The mean is 33.0481
+------------------------------------
+The mean is 41.2112
+------------------------------------
+The mean is 47.5966
+------------------------------------
+The mean is 49.0059
+------------------------------------
+The mean is 47.5703
+------------------------------------
+The mean is 49.0701
+------------------------------------
+The mean is 45.9064
+------------------------------------
+The mean is 37.0832
+------------------------------------
+The mean is 35.5221
+------------------------------------
+The mean is 40.3303
+------------------------------------
+The mean is 46.6856
+------------------------------------
+The mean is 43.8536
+------------------------------------
+The mean is 40.7761
+------------------------------------
+The mean is 42.8578
+------------------------------------
+The mean is 37.6994
+------------------------------------
+The mean is 38.3403
+------------------------------------
+The mean is 42.3677
+------------------------------------
+The mean is 43.0807
+------------------------------------
+The mean is 43.1014
+------------------------------------
+The mean is 48.9382
+------------------------------------
+The mean is 49.0441
+------------------------------------
+The mean is 47.2674
+------------------------------------
+The mean is 48.3718
+------------------------------------
+The mean is 45.8172
+------------------------------------
+The mean is 46.1041
+------------------------------------
+The mean is 48.0719
+------------------------------------
+The mean is 48.8965
+------------------------------------
+The mean is 48.9403
+------------------------------------
+The mean is 48.8609
+------------------------------------
+The mean is 47.828
+------------------------------------
+The mean is 48.1655
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 40.9332
+------------------------------------
+The mean is 38.8151
+------------------------------------
+The mean is 33.4488
+------------------------------------
+The mean is 32.9838
+------------------------------------
+The mean is 41.4499
+------------------------------------
+The mean is 48.9983
+------------------------------------
+The mean is 49.0526
+------------------------------------
+The mean is 48.999
+------------------------------------
+The mean is 43.0446
+------------------------------------
+The mean is 31.6083
+------------------------------------
+The mean is 30.9795
+------------------------------------
+The mean is 38.8757
+------------------------------------
+The mean is 44.1461
+------------------------------------
+The mean is 49.0088
+------------------------------------
+The mean is 48.9986
+------------------------------------
+The mean is 49.0231
+------------------------------------
+The mean is 43.8356
+------------------------------------
+The mean is 37.4391
+------------------------------------
+The mean is 35.2855
+------------------------------------
+The mean is 39.7731
+------------------------------------
+The mean is 48.6176
+------------------------------------
+The mean is 49.0392
+------------------------------------
+The mean is 49.0179
+------------------------------------
+The mean is 48.9955
+------------------------------------
+The mean is 47.5564
+------------------------------------
+The mean is 48.0211
+------------------------------------
+The mean is 46.2679
+------------------------------------
+The mean is 45.022
+------------------------------------
+The mean is 41.9948
+------------------------------------
+The mean is 47.3412
+------------------------------------
+The mean is 49.0678
+------------------------------------
+The mean is 49.016
+------------------------------------
+The mean is 48.5387
+------------------------------------
+The mean is 44.1745
+------------------------------------
+The mean is 41.868
+------------------------------------
+The mean is 43.7637
+------------------------------------
+The mean is 48.3181
+------------------------------------
+The mean is 49.0529
+------------------------------------
+The mean is 49.0339
+------------------------------------
+The mean is 49.0136
+------------------------------------
+The mean is 49.0404
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 43.7948
+------------------------------------
+The mean is 37.6005
+------------------------------------
+The mean is 31.4803
+------------------------------------
+The mean is 30.8233
+------------------------------------
+The mean is 38.2384
+------------------------------------
+The mean is 45.5083
+------------------------------------
+The mean is 49.0235
+------------------------------------
+The mean is 45.5897
+------------------------------------
+The mean is 39.7507
+------------------------------------
+The mean is 32.0051
+------------------------------------
+The mean is 29.7873
+------------------------------------
+The mean is 35.8432
+------------------------------------
+The mean is 40.7335
+------------------------------------
+The mean is 47.6331
+------------------------------------
+The mean is 49.0943
+------------------------------------
+The mean is 49.0001
+------------------------------------
+The mean is 42.3053
+------------------------------------
+The mean is 42.5146
+------------------------------------
+The mean is 37.5453
+------------------------------------
+The mean is 37.9787
+------------------------------------
+The mean is 45.223
+------------------------------------
+The mean is 48.9614
+------------------------------------
+The mean is 49.0821
+------------------------------------
+The mean is 49.0204
+------------------------------------
+The mean is 49.0401
+------------------------------------
+The mean is 49.0189
+------------------------------------
+The mean is 49.0338
+------------------------------------
+The mean is 46.9985
+------------------------------------
+The mean is 43.6011
+------------------------------------
+The mean is 46.6052
+------------------------------------
+The mean is 49.0341
+------------------------------------
+The mean is 49.0073
+------------------------------------
+The mean is 46.05
+------------------------------------
+The mean is 41.0826
+------------------------------------
+The mean is 36.7675
+------------------------------------
+The mean is 40.8981
+------------------------------------
+The mean is 48.6248
+------------------------------------
+The mean is 49.064
+------------------------------------
+The mean is 48.9946
+------------------------------------
+The mean is 49.0055
+------------------------------------
+The mean is 49.0432
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 41.4676
+------------------------------------
+The mean is 37.522
+------------------------------------
+The mean is 34.6742
+------------------------------------
+The mean is 32.275
+------------------------------------
+The mean is 36.2385
+------------------------------------
+The mean is 45.5355
+------------------------------------
+The mean is 48.9697
+------------------------------------
+The mean is 43.6632
+------------------------------------
+The mean is 37.1193
+------------------------------------
+The mean is 31.901
+------------------------------------
+The mean is 31.4055
+------------------------------------
+The mean is 31.4935
+------------------------------------
+The mean is 38.282
+------------------------------------
+The mean is 46.9221
+------------------------------------
+The mean is 49.032
+------------------------------------
+The mean is 48.8684
+------------------------------------
+The mean is 48.5677
+------------------------------------
+The mean is 47.2662
+------------------------------------
+The mean is 38.7287
+------------------------------------
+The mean is 34.257
+------------------------------------
+The mean is 35.8017
+------------------------------------
+The mean is 40.4476
+------------------------------------
+The mean is 45.332
+------------------------------------
+The mean is 44.1274
+------------------------------------
+The mean is 42.7725
+------------------------------------
+The mean is 45.7249
+------------------------------------
+The mean is 49.0635
+------------------------------------
+The mean is 49.021
+------------------------------------
+The mean is 45.3317
+------------------------------------
+The mean is 46.0094
+------------------------------------
+The mean is 48.8924
+------------------------------------
+The mean is 49.0311
+------------------------------------
+The mean is 47.4344
+------------------------------------
+The mean is 42.197
+------------------------------------
+The mean is 36.2132
+------------------------------------
+The mean is 41.8361
+------------------------------------
+The mean is 49.013
+------------------------------------
+The mean is 49.0465
+------------------------------------
+The mean is 49.005
+------------------------------------
+The mean is 49.0128
+------------------------------------
+The mean is 48.9419
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 40.1844
+------------------------------------
+The mean is 43.999
+------------------------------------
+The mean is 40.7918
+------------------------------------
+The mean is 40.5437
+------------------------------------
+The mean is 39.9057
+------------------------------------
+The mean is 44.1248
+------------------------------------
+The mean is 49.0032
+------------------------------------
+The mean is 48.968
+------------------------------------
+The mean is 39.543
+------------------------------------
+The mean is 35.6982
+------------------------------------
+The mean is 36.7699
+------------------------------------
+The mean is 37.4999
+------------------------------------
+The mean is 37.613
+------------------------------------
+The mean is 44.0626
+------------------------------------
+The mean is 48.9801
+------------------------------------
+The mean is 49.0412
+------------------------------------
+The mean is 49.0503
+------------------------------------
+The mean is 45.4361
+------------------------------------
+The mean is 37.5892
+------------------------------------
+The mean is 31.4994
+------------------------------------
+The mean is 34.7086
+------------------------------------
+The mean is 43.0332
+------------------------------------
+The mean is 44.5733
+------------------------------------
+The mean is 43.8004
+------------------------------------
+The mean is 38.2631
+------------------------------------
+The mean is 42.5853
+------------------------------------
+The mean is 47.8539
+------------------------------------
+The mean is 49.0264
+------------------------------------
+The mean is 49.0038
+------------------------------------
+The mean is 46.8302
+------------------------------------
+The mean is 46.0729
+------------------------------------
+The mean is 49.003
+------------------------------------
+The mean is 49.0294
+------------------------------------
+The mean is 48.8814
+------------------------------------
+The mean is 39.6268
+------------------------------------
+The mean is 43.2288
+------------------------------------
+The mean is 49.0396
+------------------------------------
+The mean is 49.0375
+------------------------------------
+The mean is 48.9988
+------------------------------------
+The mean is 49.0052
+------------------------------------
+The mean is 47.584
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The mean is 39.9475
+------------------------------------
+The mean is 49.0541
+------------------------------------
+The mean is 49.0436
+------------------------------------
+The mean is 49.0528
+------------------------------------
+The mean is 49.041
+------------------------------------
+The mean is 43.3788
+------------------------------------
+The mean is 47.1291
+------------------------------------
+The mean is 49.0964
+------------------------------------
+The mean is 49.0473
+------------------------------------
+The mean is 49.0637
+------------------------------------
+The mean is 49.0758
+------------------------------------
+The mean is 48.107
+------------------------------------
+The mean is 42.0148
+------------------------------------
+The mean is 44.3296
+------------------------------------
+The mean is 49.0905
+------------------------------------
+The mean is 49.0642
+------------------------------------
+The mean is 49.0472
+------------------------------------
+The mean is 48.3119
+------------------------------------
+The mean is 37.8518
+------------------------------------
+The mean is 29.6609
+------------------------------------
+The mean is 33.503
+------------------------------------
+The mean is 47.6077
+------------------------------------
+The mean is 49.0845
+------------------------------------
+The mean is 49.0233
+------------------------------------
+The mean is 45.468
+------------------------------------
+The mean is 44.2242
+------------------------------------
+The mean is 45.8898
+------------------------------------
+The mean is 48.9185
+------------------------------------
+The mean is 49.0467
+------------------------------------
+The mean is 48.8597
+------------------------------------
+The mean is 48.9149
+------------------------------------
+The mean is 48.8888
+------------------------------------
+The mean is 48.8596
+------------------------------------
+The mean is 49.0152
+------------------------------------
+The mean is 44.9638
+------------------------------------
+The mean is 45.7025
+------------------------------------
+The mean is 49.0106
+------------------------------------
+The mean is 49.0069
+------------------------------------
+The mean is 48.8524
+------------------------------------
+The mean is 47.618
+------------------------------------
+The mean is 46.1807
+------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+[       OK ] PFData_test.CalcAvg (59 ms)
+[----------] 24 tests from PFData_test (520 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 1 test suite ran. (520 ms total)
+[  PASSED  ] 22 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] PFData_test.loadClipTest2
+[  FAILED  ] PFData_test.loadClipTest3
+
+ 2 FAILED TESTS
+make[3]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+make[2]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'
+make[1]: Leaving directory '/home/KALYANBHETWAL/parflowio/build'

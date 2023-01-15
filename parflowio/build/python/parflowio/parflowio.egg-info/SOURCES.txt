@@ -1,0 +1,8 @@
+setup.py
+parflowio/__init__.py
+parflowio/pyParflowio.py
+parflowio.egg-info/PKG-INFO
+parflowio.egg-info/SOURCES.txt
+parflowio.egg-info/dependency_links.txt
+parflowio.egg-info/requires.txt
+parflowio.egg-info/top_level.txt

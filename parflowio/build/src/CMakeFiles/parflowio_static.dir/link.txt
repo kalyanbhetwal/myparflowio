@@ -1,0 +1,2 @@
+/usr/bin/ar qc libparflowio_static.a  CMakeFiles/parflowio.dir/pfdata.cpp.o CMakeFiles/parflowio.dir/pfutil.cpp.o
+/usr/bin/ranlib libparflowio_static.a
