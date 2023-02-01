@@ -7,8 +7,15 @@
 #include <ctime>
 #include <chrono>
 #include <algorithm>
+#include <iostream>
+#include<vector>
+
+using namespace std;
+using namespace std::chrono;
+
+
 #include "helper_functions.inc"
-int main(void){
+int main(int argc, char **argv){
     std::cout <<"hello world"<<'\n';
     // PFData test("tests/inputs/press.init.pfb");
     // test.loadHeader();
@@ -21,9 +28,14 @@ int main(void){
     //         std::cout <<"------------------------"<<std::endl;
     //     }
     // }
-    std::string m_filename = "tests/inputs/press.init.pfb";
-    std::string filename = "tests/inputs/output.init.pfb";
+    auto start = high_resolution_clock::now();
+    std::string m_filename = argv[1];//"tests/inputs/press.init.pfb";
+    std::string filename = argv[2];//"tests/inputs/output.init.pfb";
     #include "read_file.inc"
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
+    cout << "Time taken by function: "
+         << duration.count() << " milliseconds" << endl;
 
 
 }  

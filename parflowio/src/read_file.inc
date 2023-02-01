@@ -241,8 +241,7 @@ for(t2 = 0; t2 <= m_r-1; t2++) {
               }
               
              // s20(10,t2,0,t4,0,t6,2,t8,0,t10,2);
-              fwrite(writeBuf.data(),sizeof(double),x_extent,fp); 
-              std::cout<< "the written data "<<writeBuf.data()<<std::endl;
+              fwrite(writeBuf.data(),sizeof(double),x_extent,fp);
             }
           }
         }
